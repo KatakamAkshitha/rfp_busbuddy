@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Routes</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='displayRoutes.css')}}">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="nav-logo">
+                <p>BusBuddy</p>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="./" class="link">Home</a></li>
+                    <li><a href="http://127.0.0.1:5000/searchRoutes" class="link">Search Routes</a></li>
+                    <li><a href="http://127.0.0.1:5000/displayRoutes" class="link active">Display Routes</a></li>
+                    <li><a href="http://127.0.0.1:5000/about" class="link">About</a></li>
+                    <li><a href="http://127.0.0.1:5000/contact" class="link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="container">
+                <p>CVR COLLEGE OF ENGINEERING</p>
+            </div>
+        </nav>
+        <div class="notice-box">
+            <h1>Display Bus Routes</h1>
+            <div>
+                <label for="schedule">Select Schedule:</label>
+                <select id="schedule">
+                    <option value="mrng">Morning/Evening</option>
+                    <option value="af">Afternoon</option>
+                    <option value="sb">Stayback</option>
+                </select>
+                <label for="routeNumber">Enter Route Number:</label>
+                <input type="text" id="routeNumber" placeholder="Enter route number">
+                <button onclick="displayRoutes()">Search</button>
+            </div>
+            <h2>Route Stops</h2>
+            <ul id="route-stops-list"></ul> <!-- This will contain the list of stops -->
+        </div>
+        </nav>
+    </div>
+
+    <script>
+        function displayRoutes() {
+            const schedule = document.getElementById('schedule').value;
+            const routeNumber = document.getElementById('routeNumber').value.trim();
+
+            fetch(`/display_routes`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    time_slot: schedule,
+                    route_no: routeNumber
+                })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    displayRouteStops(data);
+                })
+                .catch(error => console.error('Error:', error));
+        }
+
+        function displayRouteStops(routes) {
+            const routeStopsList = document.getElementById('route-stops-list');
+            routeStopsList.innerHTML = ''; // Clear previous entries
+
+            routes.forEach(route => {
+                const li = document.createElement('li');
+                const ul = document.createElement('ul'); // Create unordered list
+                route.stops.forEach(stop => {
+                    const stopLi = document.createElement('li'); // Create list item for each stop
+                    stopLi.textContent = stop;
+                    ul.appendChild(stopLi); // Append stop list item to unordered list
+                });
+                li.appendChild(ul); // Append unordered list to route list item
+                routeStopsList.appendChild(li); // Append route list item to the main list
+            });
+        }
+    </script>
+    <footer class="footer">
+        <p> Copyright &copy; 2024 Bus Buddy CVR College of Engineering. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

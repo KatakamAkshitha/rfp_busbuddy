@@ -1,0 +1,34 @@
+[
+    {
+        "route_no": "1",
+        "stops": [
+            "BN Reddy",
+            "LB Nagar",
+            "Nagole",
+            "JBS",
+            "Chintal",
+            "IDPL",
+            "Balanagar X Road",
+            "Peeroz Guda",
+            "Boji Function Hall",
+            "Bowenpally",
+            "Bapuji Nagar",
+            "Diamond Point",
+            "Sangeeth",
+            "College"
+        ]
+    },
+    {
+        "route_no": "2",
+        "stops": [
+            "Ibrahimpatnum",
+            "Bowenpally",
+            "Bapuji Nagar",
+            "Diamond Point",
+            "JBS",
+            "Sangeeth",
+            "College"
+        ]
+    }
+    
+]

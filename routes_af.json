@@ -1,0 +1,649 @@
+[
+    {
+        "route_no": "1",
+        "stops": [
+            "Jeedimetla",
+            "Shapur",
+            "Chintal",
+            "IDPL",
+            "Balanagar X Road",
+            "Peeroz Guda",
+            "Boji Function Hall(Balanagar)",
+            "Bowenpally(CMR Function Hall)",
+            "Bapuji Nagar(Sarojini Pulla Reddy Hospital)",
+            "Diamond Point",
+            "JBS",
+            "Sangeeth",
+            "College"
+        ]
+    },
+    {
+        "route_no": "2",
+        "stops": [
+            "Suraram",
+            "Boji Function Hall(Balanagar)",
+            "Bowenpally(CMR Function Hall)",
+            "Bapuji Nagar(Sarojini Pulla Reddy Hospital)",
+            "Diamond Point",
+            "JBS",
+            "Sangeeth",
+            "College"
+        ]
+    },
+    {
+        "route_no": "3",
+        "stops": [
+            "Indira Park",
+            "TDP Office",
+            "Ashok Nagar X Road(Before Khaman)",
+            "RTC X Road Sandhya Theatre",
+            "Bus Bhavan",
+            "Ramnagar Gundu",
+            "Vidya Nagar",
+            "Shivam Road",
+            "Amberpet",
+            "Ramanthapur Bharat Petrol pump",
+            "Alkapuri",
+            "Rock Town",
+            "Kamineni",
+            "College"
+        ]
+    },
+    {
+        "route_no": "4",
+        "stops": [
+            "Pedda Amberpet Checkpost",
+            "Laxma Reddy Palem",
+            "Word & Deed",
+            "Hayathnagar Bus Stand",
+            "RTC Colony",
+            "Hayathnagar Depot",
+            "Injapur",
+            "College"
+        ]
+    },
+    {
+        "route_no": "5",
+        "stops": [
+            "Bollaram Railway Station",
+            "Risala bazar",
+            "Macha Bollaram",
+            "Old Alwal IG Statue",
+            "Alwal Bus Stop",
+            "Lothukunta(China Bazar)",
+            "Lal Bazar",
+            "Thirumalagiri",
+            "Kharkhana(Adidas Showroom)",
+            "YMC",
+            "College"
+        ]
+    },
+    {
+        "route_no": "6",
+        "stops": [
+            "Hastinapuram Signal",
+            "Sagar Complex",
+            "Brahmana Palli X Road",
+            "Bongloor",
+            "College"
+        ]
+    },
+    {
+        "route_no": "7",
+        "stops": [
+            "Vinayaka Nagar Bus Stop",
+            "Safil Guda",
+            "Vani Nagar",
+            "Anutex",
+            "Malkajgiri",
+            "Thukaramgate",
+            "Mettuguda",
+            "College"
+        ]
+    },
+    {
+        "route_no": "8",
+        "stops": [
+            "Mother Dairy",
+            "DD Colony(Hotel Management)",
+            "Prashanth Nagar(Shivam Road)",
+            "SBI/ Bakers Q(Shivam Road)",
+            "Sri Ramana Theatre",
+            "Amberpet Dargah",
+            "Ramanthapur T.V.Studio",
+            "Hyderabad Public School",
+            "College"
+        ]
+    },
+    {
+        "route_no": "9",
+        "stops": [
+            "Vijaya Laxmi Theatre",
+            "Chintalkunta",
+            "Vishnu Theatre",
+            "Panama",
+            "Prashanth Nagar Reliance Fresh",
+            "RED Tank",
+            "Area Hospital",
+            "College"
+        ]
+    },
+    {
+        "route_no": "10",
+        "stops": [
+            "Nalgonda X Road(Yashoda Hospital)",
+            "Chanchal Guda Jail",
+            "Madannapet",
+            "Dhobighat",
+            "Vinayak Nagar",
+            "Bharat Garden",
+            "Sama Narasimha Reddy Garden",
+            "Swagath Hotel",
+            "Yamjal",
+            "College"
+        ]
+    },
+    {
+        "route_no": "11",
+        "stops": [
+            "Area Hospital (Vanasthalipuram)",
+            "NGO’s Bus Stop",
+            "BN Reddy(More)",
+            "College"
+        ]
+    },
+    {
+        "route_no": "12",
+        "stops": [
+            "Champapet",
+            "RTC Colony",
+            "Green Park Colony Bus Stop",
+            "Bairamalguda(GJR Garden)",
+            "College"
+        ]
+    },
+    {
+        "route_no": "13",
+        "stops": [
+            "Satya Nagar",
+            "Maruthi Nagar",
+            "Swetha Garden",
+            "Rajarajeswari Temple",
+            "Mohan Nagar",
+            "New Nagole",
+            "Nagole X Road",
+            "College"
+        ]
+    },
+    {
+        "route_no": "14",
+        "stops": [
+            "Film Nagar",
+            "Jubilee Hill Check Post",
+            "TV9",
+            "Panjagutta",
+            "Nims",
+            "Khairatabad",
+            "Abids",
+            "Big Bazar",
+            "Gujarathgally",
+            "Koti Womens College",
+            "Chadargattu",
+            "IS Sadan",
+            "KarmanGhatt(Yadagiri Function Hall)",
+            "College"
+        ]
+    },
+    {
+        "route_no": "15",
+        "stops": [
+            "Sitapalmandi",
+            "Namalagundu",
+            "Warasiguda",
+            "Warasiguda",
+            "Jamia Osmania Railway Station",
+            "Adikmet(Clinic)",
+            "Ram Nagar Gundu(Babai Hotel)",
+            "Vidya Nagar(Turning point)",
+            "Andhra Mahila Sabha",
+            "Tilak Nagar",
+            "Vishal Shopping Mall",
+            "Hyderabad Public School",
+            "Pragathi Nagar Khaman",
+            "Bharath Petrol pump",
+            "BN Reddy(Bharath Petrol pump)",
+            "College"
+        ]
+    },
+    {
+        "route_no": "16",
+        "stops": [
+            "Bagh Lingampally(Park)",
+            "Vidya Nagar",
+            "Shankar Mutt",
+            "Koranti(Fever Hospital)",
+            "Tilak Nagar",
+            "Sriramana Theatre",
+            "Police Line",
+            "Ali Cafe",
+            "RTO office",
+            "Musarambagh",
+            "TV Tower",
+            "DSNR",
+            "College"
+        ]
+    },
+    {
+        "route_no": "17",
+        "stops": [
+            "RK Puram",
+            "Neredmet X Road",
+            "Sainikpuri",
+            "AS Rao Nagar",
+            "Radhika Theatre",
+            "Ashok Nagar",
+            "Mallapur Bridge",
+            "Nacharam",
+            "College"
+        ]
+    },
+    {
+        "route_no": "18",
+        "stops": [
+            "Dammaiguda",
+            "Saketh",
+            "Kapra",
+            "North Kamala Nagar",
+            "HB Bus Stop",
+            "HB Colony II Phase",
+            "HB Colony I Phase",
+            "HMT",
+            "College"
+        ]
+    },
+    {
+        "route_no": "19",
+        "stops": [
+            "City College",
+            "Afjal Gunj",
+            "Darushifa Majid",
+            "Nalgonda X Road",
+            "Yashoda Hospital",
+            "Super Bazar",
+            "TMC DSNR",
+            "College"
+        ]
+    },
+    {
+        "route_no": "20",
+        "stops": [
+            "Yadagiri Theatre",
+            "Owaisi X Road",
+            "OPP: Sai Baba Temple",
+            "Manda Mallamma",
+            "Gayathri Nagar",
+            "TKR Kaman",
+            "AlekhyaTower",
+            "Sagar X Road",
+            "Raganna Guda",
+            "Manneguda",
+            "College"
+        ]
+    },
+    {
+        "route_no": "21",
+        "stops": []
+    },
+    {
+        "route_no": "Route_22",
+        "stops": [
+            "Gaddi Annaram Muncipal Office",
+            "Chowdi",
+            "LB Nagar(Municipal Office)",
+            "HUDA Complex",
+            "Kothapet X Road",
+            "College"
+        ]
+    },
+    {
+        "route_no": "23",
+        "stops": [
+            "Gandhi Nagar Khaman",
+            "Kavadiguda(Kalpana, Praga Tools)",
+            "Musheerabad",
+            "Padma Rao Nagar Chilkalguda",
+            "Tarnaka(Bata)",
+            "B.N. Reddy Reservoir",
+            "Sagar Complex",
+            "College"
+        ]
+    },
+    {
+        "route_no": "24",
+        "stops": [
+            "Liberty",
+            "Tata Show Room ",
+            "Himayat Nagar",
+            "X- Road",
+            "Old MLA Quarters",
+            "Narayanguda",
+            "Kachiguda X Road",
+            "Vysya Hostel",
+            "Nimboliadda",
+            "Saidabad",
+            "IBP Pump",
+            "Singareni Colony",
+            "Bairamlguda",
+            "College"
+        ]
+    },
+    {
+        "route_no": "25",
+        "stops": [
+            "Pochamma Temple",
+            "Canara Nagar",
+            "Medipally",
+            "Chengicherla X Road",
+            "Narapally",
+            "Jodumetla",
+            "ORR",
+            "College"
+        ]
+    },
+    {
+        "route_no": "26",
+        "stops": [
+            "South End Park",
+            "Mansoorabad",
+            "Sriramnagar",
+            "Sahara X Road",
+            "Chithraseema Colony(Little Flower School)",
+            "M.V. Reddy Function Hall",
+            "College"
+        ]
+    },
+    {
+        "route_no": "27",
+        "stops": [
+            "Dathu Nagar",
+            "Balapur X Road",
+            "Lenin Nagar",
+            "Badangpet",
+            "Venkatadri Colony",
+            "MVSR College",
+            "Nadargul",
+            "Adibatla TCS",
+            "College"
+        ]
+    },
+    {
+        "route_no": "28",
+        "stops": [
+            "Saroornagar Lake",
+            "Sivaganga",
+            "RED Cross",
+            "DSNR",
+            "LB Nagar",
+            "College"
+        ]
+    },
+    {
+        "route_no": "29",
+        "stops": [
+            "Bandla Guda",
+            "Indu Aranya",
+            "College"
+        ]
+    },
+    {
+        "route_no": "30",
+        "stops": [
+            "Gayatrinagar X Road",
+            "Jillalaguda",
+            "Meerpet",
+            "Narayana IIT Olympiad School",
+            "Prashanth Hill X Road",
+            "College"
+        ]
+    },
+    {
+        "route_no": "31",
+        "stops": [
+            "Shanai Narsing Home",
+            "Mahendra Hills",
+            "Anand Bagh",
+            "Malkajgiri",
+            "Mirjalguda",
+            "Shanthi Nagar",
+            "Lalapet",
+            "Tarnaka",
+            "Habsiguda",
+            "Street No.8",
+            "Survey of India",
+            "Amma Hospital",
+            "College"
+        ],
+        "driver_route_no": "Devaiah",
+        "mobile_no": "7382809476"
+    },
+    {
+        "route_no": "32",
+        "stops": [
+            "Chaitanyapuri",
+            "Jain Temple",
+            "Mohan Nagar",
+            "Sai Baba temple",
+            "College"
+        ]
+    },
+    {
+        "route_no": "33",
+        "stops": [
+            "DSNR",
+            "Rajadhani",
+            "Chaitanyapuri",
+            "RythuBazar",
+            "Astalakshmi Temple",
+            "College"
+        ]
+    },
+    {
+        "route_no": "34",
+        "stops": [
+            "TKR Khaman",
+            "TKR College",
+            "Nandi Hills",
+            "Prashanth Hills X Road",
+            "Almasguda",
+            "Gurramguda",
+            "College"
+        ]
+    },
+    {
+        "route_no": "35",
+        "stops": [
+            "JNTU",
+            "Vivekananda Nagar",
+            "Kukatpally",
+            "Y Junction",
+            "Bharath Nagar",
+            "Erragadda",
+            "SR Nagar(Circle)",
+            "Mythri Vanam",
+            "Ameerpet (Kanakadurga Temple)",
+            "Lal Bungalow",
+            "Life Style",
+            "HPS",
+            "Shopper’s Stop",
+            "Anand Theatre",
+            "College"
+        ]
+    },
+    {
+        "route_no": "36",
+        "stops": [
+            "Meerpet Police Station",
+            "Prashanthi Hills",
+            "Nandi Hills",
+            "Bharathi School",
+            "Manasa Garden",
+            "Hanuman Temple",
+            "B.D Reddy Garden",
+            "College"
+        ],
+        "driver_route_no": "Sridhar Reddy",
+        "mobile_no": "9550299927"
+    },
+    {
+        "route_no": "37",
+        "stops": [
+            "Omkar Nagar (Petrol Pump)",
+            "Central Grammar School",
+            "College"
+        ],
+        "driver_route_no": "P. Dhasarath Reddy",
+        "mobile_no": "9177770023"
+    },
+    {
+        "route_no": "38",
+        "stops": [
+            "Alpha School",
+            "Chintalkunta",
+            " Agamaiah Colony",
+            "SBH ATM",
+            " Ganesh Temple",
+            " Red Tank",
+            "Vanitha Super Market",
+            "DPS School",
+            "College"
+        ]
+    },
+    {
+        "route_no": "39",
+        "stops": []
+    },
+    {
+        "route_no": "40",
+        "stops": [
+            "Laxmi Nagar",
+            "Jyothi Nagar",
+            "Karahan Chowrasta",
+            "Attapur",
+            "Hyderguda",
+            "Upparapally",
+            "Dairy Farm",
+            "Aramgar X Road",
+            "Chandrayan Gutta",
+            "DRDL",
+            "College"
+        ]
+    },
+    {
+        "route_no": "41",
+        "stops": [
+            "Nagaram X Roads",
+            "Chakripuram",
+            "Kushaiguda",
+            "ECIL",
+            "SP Nagar",
+            "Kamala Nagar",
+            "Housing Board Phase",
+            "I",
+            "Lalapet",
+            "Ram Talkies",
+            "White House",
+            "College"
+        ]
+    },
+    {
+        "route_no": "42",
+        "stops": [
+            "SR College (CCMV Colony",
+            "Bodduppal)",
+            "Indira Nagar",
+            "Boduppal X Road",
+            "Ambedkar Statue",
+            "NTR Statue",
+            "Bodduppal Khaman",
+            "Firzadiguda Khaman",
+            "Aditya Hospital",
+            "Uppal Bus Stand",
+            "Gandhi Statue",
+            "Current Junction",
+            "College"
+        ]
+    },
+    {
+        "route_no": "43",
+        "stops": [
+            "Sushma Theatre",
+            "Rythu Bazar",
+            "Ravindra Bharathi School",
+            "Siva Sindu School",
+            "College"
+        ]
+    },
+    {
+        "route_no": "44",
+        "stops": [
+            "Hayath Nagar Bus Stand",
+            "Bus Depot",
+            "Pulla Reddy Sweet House",
+            "College"
+        ]
+    },
+    {
+        "route_no": "45",
+        "stops": [
+            "JNTU",
+            "Nizampet X Road",
+            "Miyapur",
+            "Kondapur X Road",
+            "Kothaguda",
+            "Anjaiah Nagar",
+            "ORR",
+            "College"
+        ]
+    },
+    {
+        "route_no": "46",
+        "stops": [
+            "Bhagyalatha Hospital",
+            "Shanthi Nagar",
+            "Sarada Nagar",
+            "High Court Colony",
+            "Kamala Nagar",
+            "Govt High School",
+            "Sri Indu College",
+            "College"
+        ]
+    },
+    {
+        "route_no": "47",
+        "stops": [
+            "St No.8 (Habsiguda)",
+            "Ramanthapur Church",
+            "Uppal",
+            "Nagole Bridge",
+            "Snehapuri",
+            "Swagath Grand Hotel",
+            "Rock  Town Reliance Pump",
+            "BATA SBI",
+            "College"
+        ]
+    },
+    {
+        "route_no": "48",
+        "stops": [
+            "East Anand Bagh",
+            "ZTS",
+            "Carban",
+            "H.B. I Phase",
+            "Noma Function Hall",
+            "Chilakanagar",
+            "Srinivasa Heights(Bersheeba Church)",
+            "Survey Of India",
+            "College"
+        ]
+    }
+]

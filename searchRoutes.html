@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Routes</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='searchRoutes.css')}}">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="nav-logo">
+                <p>BusBuddy</p>
+            </div>
+            <div class='nav-menu'>
+                <ul>
+                    <li><a href="./" class="link">Home</a></li>
+                    <li><a href="http://127.0.0.1:5000/searchRoutes" class="link active"> Search Routes</a></li>
+                    <li><a href="http://127.0.0.1:5000/displayRoutes" class="link"> Display Routes</a></li>
+                    <li><a href="http://127.0.0.1:5000/about" class="link"> About</a></li>
+                    <li><a href="http://127.0.0.1:5000/contact" class="link"> Contact</a></li>
+
+                </ul>
+            </div>
+            <div class="container">
+                <p>CVR COLLEGE OF ENGINEERING</p>
+            </div>
+        </nav>
+        <div class="notice-box">
+            <h1>Search Bus Routes</h1>
+            <div class="form-group">
+                <label for="timeSlot">Select Time Slot:</label>
+                <select id="timeSlot">
+                    <option value="mrng">Morning/Evening</option>
+                    <option value="af">Afternoon</option>
+                    <option value="sb">Stayback</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="current-location">Current Location:</label>
+                <input type="text" id="current-location" placeholder="Enter your current location">
+            </div>
+            <button onclick="searchRoutes()">Search</button>
+            <h2>Route No</h2>
+            <ul id="bus-routes-list"></ul>
+        </div>
+    </div>
+
+    <script>
+        function searchRoutes() {
+            const timeSlot = getSelectedValue('timeSlot');
+            const currentLocation = document.getElementById('current-location').value;
+
+            fetch('/search_routes', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    time_slot: timeSlot,
+                    current_location: currentLocation
+                })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    displayFilteredRoutes(data);
+                })
+                .catch(error => console.error('Error:', error));
+        }
+
+        function getSelectedValue(selectId) {
+            const selectElement = document.getElementById(selectId);
+            return selectElement.value;
+        }
+
+        function displayFilteredRoutes(filteredRoutes) {
+            const busRoutesList = document.getElementById('bus-routes-list');
+            busRoutesList.innerHTML = ''; // Clear previous entries
+            filteredRoutes.forEach(route => {
+                const li = document.createElement('li');
+                li.textContent = route.route_no; // Assuming 'route_no' is the key for route numbers in your JSON response
+                busRoutesList.appendChild(li);
+            });
+        }
+    </script>
+    <footer class="footer">
+        <p> Copyright &copy; 2024 Bus Buddy CVR College of Engineering. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
